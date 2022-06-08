@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    padding: 3px 20px;
+    width: 100%;
+}
+
+.search-bar input {
+    background-color: #F2F0F0;
+    border: none;
+    padding: 5px 35px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 12px;
+    position: absolute;
+    width: 400px;
+    text-align: center;
+}
+
+.search-bar i {
+    position: relative;
+    left: 5px;
+}
+
+.nav-links i {
+    color: #4A9EDA;
+}
