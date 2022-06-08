@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 
 export default function Navbar() {
     return (
-        <nav>
+        <nav >
             <form>
                 <div className="search-bar">
                     <input
@@ -14,7 +14,13 @@ export default function Navbar() {
                 </div>
 
                 <div className="nav-links">
-                    <Icon icon="clarity:home-line" color="black" />
+                    <a href="#" className="me-2"><Icon icon="clarity:home-line" color="#4a9eda" height="28px" /></a>
+                    <a href="#"><Icon icon="fluent:backpack-20-regular" color="white" height="28px" /></a>
+                    <a href="#" className="ms-2"><Icon icon="iconoir:chat-bubble" color="white" height="28px" /></a>
+                </div>
+
+                <div>
+                    <a href="#"><Icon icon="line-md:account" color="white" height="28px" /></a>
                 </div>
             </form>
         </nav>
